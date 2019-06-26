@@ -49,14 +49,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>ru.drakonov</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>1.0</version>
-                <configuration>
-                    <msg>World for maven</msg>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
